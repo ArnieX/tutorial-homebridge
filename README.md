@@ -128,7 +128,7 @@ a vlož do něj následující:
 Po úspěšném dokončení všech předchozích kroků by měla následovat čirá radost po druhém spuštění Homebridge. Následujícími dvěma příkazy spustíte službu pro poskytování dat o teplotě a vlhkosti a samotný Homebridge.
 
 ```
-screen -dmS forecacastio php -S localhost:8080 index.php
+screen -dmS forecastio php -S localhost:8080 index.php
 homebridge
 ```
 
