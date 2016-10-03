@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "RPi-Bridge",
+        "username": "DD:EE:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "007-00-007"
+    },
+
+    "description": "RasPi HomeKit Bridge",
+
+    "platforms": [],
+
+    "accessories": [{
+        "accessory": "HttpTemphum",
+            "name": "Outdoor Weather",
+            "url": "http://localhost:8080?format=json",
+            "sendimmediately": "",
+            "http_method": "GET"
+    }]
+}
